@@ -3,7 +3,7 @@
 # which can be downloaded from GitHub'S UI or with 'gh run download'.
 
 name: CI Linux Golden Tests
-on: [push, pull_request]
+on: [pull_request]
 
 permissions:
   contents: read

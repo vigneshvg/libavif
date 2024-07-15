@@ -1,6 +1,5 @@
 name: CI Unix Static
 on:
-  push:
   pull_request:
     paths:
       - '.github/workflows/ci-unix-static.yml'

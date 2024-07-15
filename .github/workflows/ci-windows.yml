@@ -12,7 +12,6 @@
 
 name: CI Windows
 on:
-  push:
   pull_request:
     paths:
       - '.github/workflows/ci-windows.yml'
