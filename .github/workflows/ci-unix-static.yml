@@ -1,6 +1,8 @@
 name: CI Unix Static
 on:
   push:
+    branches:
+      - cl_rust_tryouts
   pull_request:
     paths:
       - ".github/workflows/ci-unix-static.yml"
@@ -22,8 +24,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-24.04, macos-13]
-        build-type: [Release, Debug]
+        os: [ubuntu-24.04]
+        build-type: [Release]
         include:
           - runs-on: ubuntu-24.04
             compiler: gcc

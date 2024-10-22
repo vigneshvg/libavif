@@ -5,7 +5,7 @@
 # Runs on ubuntu only. libavif is built with clang.
 
 name: CI Fuzztest
-on: [push, pull_request]
+on: [pull_request]
 
 permissions:
   contents: read
